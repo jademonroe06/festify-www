@@ -7,18 +7,28 @@ export type Artist = {
 export const ARTISTS: Artist[] = [
   {
     id: 1,
-    name: "Aurora Waves",
-    genre: "Indie",
+    name: "The Weeknd",
+    genre: "R&B/Soul",
   },
   {
     id: 2,
-    name: "Neon Drums",
-    genre: "Electrónica",
+    name: "Daft Punk",
+    genre: "Electrónica/Funk/Disco/House/Techno/Rock",
   },
   {
     id: 3,
-    name: "Ritmo Gitano",
-    genre: "Fusión",
+    name: "Dua Lipa",
+    genre: "Pop",
+  },
+  {
+    id: 4,
+    name: "Bruno Mars",
+    genre: "Pop/R&B/Funk/Reggae/Rock/hip-hop",
+  },
+  {
+    id: 5,
+    name: "Harry Styles",
+    genre: "Pop/Glam Rock/Soft Rock",
   },
 ];
 

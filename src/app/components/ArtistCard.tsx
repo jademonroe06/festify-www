@@ -19,12 +19,12 @@ export default function ArtistCard({
         <Link
           to={`/artists/${id}`}
           aria-label={`Ver detalle de ${name}`}
-          className="text-blue-600 hover:underline"
+          className="text-pink-300 hover:underline"
         >
           {name}
         </Link>
       </h3>
-      <p className="text-sm text-gray-600">{genre ?? "—"}</p>
+      <p className="text-sm text-pink-800">{genre ?? "—"}</p>
     </article>
   );
 }
