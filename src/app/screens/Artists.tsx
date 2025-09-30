@@ -5,6 +5,9 @@ import ArtistCard from "@/app/components/ArtistCard";
 import { getArtists } from "@/app/services/artists";
 import { Link } from "react-router-dom";
 
+//useState -> permite a los componentes funcionales tener un estado
+//interno, es decir, datos que pueden cambiar a lo largo del tiempo
+
 export default function Artists() {
     const [query, setQuery] = useState("");
     const results = getArtists(query);
