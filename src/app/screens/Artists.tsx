@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 //useState -> permite a los componentes funcionales tener un estado
 //interno, es decir, datos que pueden cambiar a lo largo del tiempo
+//forma en la que se puede cargar los datos
 
 export default function Artists() {
     const [query, setQuery] = useState("");
